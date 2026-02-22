@@ -37,4 +37,5 @@ services:
       - ./pgadmin_data:/var/lib/pgadmin
     depends_on:
       - db
+    ./queries:/var/lib/pgadmin/storage/admin_admin.com/queries
     
